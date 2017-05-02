@@ -1,0 +1,13 @@
+-   repo: git://github.com/pre-commit/pre-commit-hooks
+    sha: v0.4.2
+    hooks:
+    -   id: trailing-whitespace
+    -   id: check-byte-order-marker
+-   repo: git://github.com/pre-commit/mirrors-eslint
+    sha: 5bf6c09bfa1297d3692cadd621ef95f1284e33c0
+    hooks:
+    -   id: eslint
+-   repo: git://github.com/pre-commit/mirrors-csslint
+    sha: 818b64c6bf19ca1e089b4dabc8dc74059b405814
+    hooks:
+    -   id: csslint
